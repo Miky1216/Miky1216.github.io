@@ -4,17 +4,3 @@ $(document).ready(function(getblog){
 			alert(data.start.count);
 		});
 	}
-function pager(){
-	
-	
-}
-
-function getselection(){
-	
-	
-}
-
-$("#button").click(function() {
-	$("#.para").append("1 ");
-	
-});

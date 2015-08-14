@@ -1,11 +1,9 @@
-$(document).ready(getblog);
+$(document).ready(function(getblog){
 	function getblog(){
 		$.getJSON("entries.json", function(data){
-		$each(data.entries, function(key, value){
-		console.log("hello world")
-		})
-	})
-}
+			alert(data.start.count);
+		});
+});
 function pager(){
 	
 	
@@ -15,3 +13,8 @@ function getselection(){
 	
 	
 }
+
+$("#button").click(function() {
+	$("#.para").append("1 ");
+	
+});

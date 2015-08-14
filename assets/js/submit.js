@@ -18,16 +18,16 @@ $("#familyMemberInfo").click(function about(name){
 	
 	switch(firstname){
 		case "Herb":
-			$("#feedback").html("Herb is 35 years old and his birthday is 01/25/1980 and he enjoys herb gardening");
+			$("#feedback").html("Herb is 35 years old and his birthday is 01/25/1980 and he enjoys herb gardening.");
 			break;
 		case "Nancy":
-			$("#feedback").html(mother.name + " is " + mother.age + " years old and her birthday is " + mother.birthday + " and she enjoys " + mother.hobby);
+			$("#feedback").html("Nancy is 70 years old and her birthday is 04/15/1945 and she enjoys nunning.");
 			break;
 		case "Lily":
-			$("#feedback").html(daughter.name + " is " + daughter.age + " years old and her birthday is " + daughter.birthday+ " and she enjoys " + daughter.hobby);
+			$("#feedback").html("Lily is 23 years old and her birthday is 10/30/1992 and she enjoys catching frogs.");
 			break;
 		case "Ralph":
-			$("#feedback").html(son.name + " is " + son.age + " years old and he will be born on " + son.birthday + " and he will enjoy " + son.hobby);
+			$("#feedback").html("Ralph is 0 years old and he will be born on 07/07/2016 and he will enjoy ralphing.");
 			break;
 		default:
 			$("#feedback").html("Person " + firstname + " doesn't exist!");

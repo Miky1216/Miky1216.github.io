@@ -1,53 +1,54 @@
 {
-	"entries":[
-		{
-		"date":"08/07/2015",
-		"title":"Making Bacon Pancakes Adventure Video Game",
-		"text":"Working on our final Python game was a tremendous learning experience. To take the fundamentals and tools that were obtained in the first few weeks of the program and to implement them in an educational way resulted in many highs and lows. I learned about Pygame (Python) and how to bring an idea for a video game to life. The process of planning the outline of a project, grinding out the details and understanding that sometimes expectations will not be met were important learning tools to comprehend. The fact that we were able to make a functioning game in just a matter of days was impressive on a personal level. Prior to this experience, I did not realize the amount of work that goes into the movement, environment, and overall process of a game. Going forward, I am confident I would be able to make a better game due to my educational experience.<br/> Collision detection was a game changer for us, as it opened doors for the entire project. Even though it took us half way through the project to figure it out, it still saved us in the end. With that said, we left plenty on the table to be desired as far as the level of where the game could have been, but the good news is we coded it in a way that we can always add to it later to make the game better.<br/> The game started as a remixed song on YouTube. From there, we turned a simple concept into an "Adventure" game that was designed with a unique background and obstacles that were set up in a sort of maze for the hero to reach his enemies. We made sure that going around the obstacles was important, which meant the hero could not just walk right over them. The game was made more appealing due to random generated backgrounds for continuous play, health bars, interesting-looking sprites and objects that were used as weapons for the enemies and hero to wield.<br/> The educational experience that went along with creating the game was the most important part of the process. To conceptually design a game and then bring it to life using code that I learned over the course of two weeks was a major confidence boost."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		},
-		{
-		"date":"03/13/2015",
-		"title":"Second entry",
-		"text":"And so it goes..."
-		}
-	]
+    "entries": [
+        {
+            "date": "08/07/2015",
+            "title": "Making Bacon Pancakes Adventure Video Game",
+            "text": "Working on our final Python game was a tremendous learning experience. To take the fundamentals and tools that were obtained in the first few weeks of the program and to implement them in an educational way resulted in many highs and lows. I learned about Pygame (Python) and how to bring an idea for a video game to life. The process of planning the outline of a project, grinding out the details and understanding that sometimes expectations will not be met were important learning tools to comprehend. The fact that we were able to make a functioning game in just a matter of days was impressive on a personal level. Prior to this experience, I did not realize the amount of work that goes into the movement, environment, and overall process of a game. Going forward, I am confident I would be able to make a better game due to my educational experience.<br/> Collision detection was a game changer for us, as it opened doors for the entire project. Even though it took us half way through the project to figure it out, it still saved us in the end. With that said, we left plenty on the table to be desired as far as the level of where the game could have been, but the good news is we coded it in a way that we can always add to it later to make the game better.<br/> The game started as a remixed song on YouTube. From there, we turned a simple concept into an adventure game that was designed with a unique background and obstacles that were set up in a sort of maze for the hero to reach his enemies. We made sure that going around the obstacles was important, which meant the hero could not just walk right over them. The game was made more appealing due to random generated backgrounds for continuous play, health bars, interesting-looking sprites and objects that were used as weapons for the enemies and hero to wield.<br/> The educational experience that went along with creating the game was the most important part of the process. To conceptually design a game and then bring it to life using code that I learned over the course of two weeks was a major confidence boost."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        },
+        {
+            "date": "03/13/2015",
+            "title": "Second entry",
+            "text": "And so it goes..."
+        }
+    ]
+}

@@ -1,5 +1,10 @@
 {
     "entries": [
+		{
+			"date":"08/16/2015", 
+			"title":"Blog Project", 
+			"text":"Future blog posts will be written detailing the progress on various projects during the 12-week period."
+		},	
         {
             "date": "08/07/2015",
             "title": "Making Bacon Pancakes Adventure Video Game",
@@ -50,5 +55,6 @@
             "title": "Second entry",
             "text": "And so it goes..."
         }
+		
     ]
 }

@@ -14,6 +14,7 @@ function getblog(){
 			pager(0);
 		});
 	});
+	getselection();
 };
 	
 function pager(index){	
@@ -43,7 +44,23 @@ function pager(index){
 		pager(currentPage-5);
 		currentPage-=5;
 	});
-	
+
 function getselection(){
-	
-}
+	var searchBar = $("#search2")
+	$("#search2").keyup(function selection(){
+		$("#hideNameAttendance").hide();
+		$("#interests").hide();
+		$("#interestsExplained").hide();
+		$("#headerBlog").hide();
+		$("#posts").hide();
+	})
+	$("#search2").keyup(function(reappear){
+		if (reappear.keyCode == 8){
+			$("#hideNameAttendance").show();
+			$("#interests").show();
+			$("#interestsExplained").show();
+			$("#headerBlog").show();
+			$("#posts").show();	
+		}
+	})
+};

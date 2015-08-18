@@ -406,3 +406,29 @@ jQuery.fn.pagination = function(maxentries, opts){
 	<li id = "pageThree"><a href = "#">3</a></li>
 	<li><a href = "next">Next</a></li>
 </ul>
+
+<ul class = "pagination">
+	<li id = "previousPage" class = "disabled"><a href = "previous">Previous</a></li>
+	<li id = "pageOne"><a href="http://miky1216.github.io/#pageOne">1</a></li>
+	<li id = "pageTwo"><a href = "http://miky1216.github.io/#pageTwo">2</a></li>
+	<li id = "pageThree"><a href = "http://miky1216.github.io/#pageThree">3</a></li>
+	<li id = "nextPage"><a href = "next">Next</a></li>
+</ul>	
+
+		//var postsPerPage = 5;
+		//var postsToPaginate = value / postsPerPage;
+		//return postsToPaginate;
+
+$(document).ready( function(key, value){
+	$.select = $("pageButtons")
+		$("#pageButtons").append("<li id = '" + key + "'>" + value + "</li>");
+		$("#pageButtons").append("<li id = 'pageTwo'><a href = '#'>" + "key" + key + "</a></li>");
+		$("#pageButtons").append("<li id = 'pageThree'><a href = '#'>" + "key" + key + "</a></li>");
+});;
+
+$("#pageOne").append(key[0,4])
+$("#pageTwo").append("")
+$("#pageThree").append("")
+
+
+$("#pageButtons").append("<li id = page1><a href = '#'>" + 'Page1' + "</li>") && $("#pageButtons").append("<li id = page2><a href = '#'>" + 'Page2' + "</li>") && $("#pageButtons").append("<li id = page3><a href = '#'>" + 'Page3' + "</li>") && $("#pageButtons").append("<li id = next><a href = '#'>" + 'Next' + "</li>");

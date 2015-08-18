@@ -115,61 +115,52 @@
 <!--    Blog     -->
 	<div id="blogheader" class="row">
     	<!--    Your blog header and search bar will eventually go here. Ignore this comment for now. -->
+		  <div class="col-md-8"> 
+			<h2>Blog</h2> 
+			</div> 
+		  <div class="col-md-4"> 
+			<span style="height:50px;"> </span> 
+			<input type='text' class='search form-control' id='search2' name="search2" placeholder="Search Blog" style="float:right;" />
+		  </div> 
 	</div>
+	
+	<div class="row"> 
+	  <hr/> 
+	</div> 	
+	
+	
+	
+	
 	<div id="blogcontent" class="row">
     	<!--    Your blog entries and pagination will eventually go here. Ignore this comment for now. -->
+		<div id = 'posts'></div>
+		
+		<div id = 'pageButtons'> 
+			<center><input type = "button" value = "Previous Page" id = "previous"/><input type = "button" value = "Next Page" id = "next"/></center>
+		</div>
+
 	</div>
 <!--    /.Blog     -->
 
-<div class="row"> 
-  <div class="col-md-8"> 
-    <h2>Blog</h2> 
-    </div> 
-  <div class="col-md-4"> 
-    <span style="height:50px;"> </span> 
-	<input type='text' class='search form-control' id='search2' name="search2" placeholder="Search Blog" style="float:right;" /> 
-  </div> 
-</div> 
 
 
-
-<div class="row"> 
-  <hr/> 
-</div> 
-
-<div id="blog" class="row"> 
-  
-<!-- blog posts are generated here --> 
-
-<div id = 'key'></div>
-
-<div id = 'pageButtons'>
-
-<ul class = "pagination">
-	<li class = "disabled"><a href = "previous">Previous</a></li>
-	<li id = "pageOne"><a href="#pageOne">1</a></li>
-	<li id = "pageTwo"><a href = "#pageTwo">2</a></li>
-	<li id = "pageThree"><a href = "#pageThree">3</a></li>
-	<li><a href = "next">Next</a></li>
-</ul>	
- </div>
- 
+   
    <div class="row">
 	<hr/>
-	<footer class="text-center">
-	    <p class="text-muted">
-	    <small>
-	    Built using
-	    <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
-	    <a href="http://www.bootswatch.com" target="_blank">Readable by Bootswatch</a>,
-	    <a href="http://glyphicons.com" target="_blank">Glyphicons</a>,
-	    <a href="https://www.behance.net/abhishekpipalva" target="_blank">Icons by Abhishek Pipalva</a>,
-	    <a href="http://www.jquery.com" target="_blank">jQuery</a>.
-	    <br/>
-	    Content &copy; 2015 <a href="http://www.devcodecamp.com/" target="_blank">devCodeCamp</a> &amp; Michael Terrill
-	    </small>
-	    </p>
-	</footer>
+		<footer class="text-center">
+			<p class="text-muted">
+			<small>
+			Built using
+			<a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>,
+			<a href="http://www.bootswatch.com" target="_blank">Readable by Bootswatch</a>,
+			<a href="http://glyphicons.com" target="_blank">Glyphicons</a>,
+			<a href="https://www.behance.net/abhishekpipalva" target="_blank">Icons by Abhishek Pipalva</a>,
+			<a href="http://www.jquery.com" target="_blank">jQuery</a>.
+			<br/>
+			Content &copy; 2015 <a href="http://www.devcodecamp.com/" target="_blank">devCodeCamp</a> &amp; Michael Terrill
+			</small>
+			</p>
+		</footer>
     </div>		
 
 </div><!-- /.container -->

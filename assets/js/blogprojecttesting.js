@@ -173,3 +173,44 @@ $(document).ready(pager);
 		// if page1 clicked, .show() on the buttons */
 
 // SEARCH FUNCTIONALITY
+
+		//var entries = JSON.parse(entriesString);
+		
+function findselection(){
+	$.getJSON("http://miky1216.github.io/entries.json", function(data){
+		var searchBar = $("#search2").val();
+		var entriesString = JSON.stringify(data);
+		//var entries = JSON.parse(entriesString);
+		var entriesArray = entriesString.split("},");
+		var resultEntriesArray = entriesArray.indexOf("");
+		//console.log(searchBar);
+		console.log(resultEntriesArray);
+		//console.log(entriesString);
+		console.log(entriesArray);
+		$("#search2").keyup(function(search){
+			if (search.keyCode == 13){
+				$(entriesArray).find(searchBar);
+				console.log(searchBar);
+		}	
+	})	
+})};
+
+
+function findselection(){
+	$.getJSON("http://miky1216.github.io/entries.json", function(data){
+		var searchBar = $("#search2").val();
+		var entriesString = JSON.stringify(data);
+		var entriesArray = entriesString.split("},");
+		var resultEntriesArray = entriesArray.indexOf("");
+		console.log(resultEntriesArray);
+		//console.log(entriesString);
+		console.log(entriesArray);
+		$("#search2").keyup(function(){
+			$(entriesArray).find(searchBar);
+			console.log(searchBar);
+			return searchBar;
+	})	
+})};
+
+for (index = 0; index < entriesArray.length; index++){
+	$("#searchResults") += entriesArray[index];

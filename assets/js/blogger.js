@@ -15,6 +15,7 @@ function getblog(){
 		});
 	});
 	getselection();
+	findselection();
 };
 	
 function pager(index){	
@@ -46,7 +47,6 @@ function pager(index){
 	});
 
 function getselection(){
-	var searchBar = $("#search2")
 	$("#search2").keyup(function selection(){
 		$("#hideNameAttendance").hide();
 		$("#interests").hide();
@@ -64,3 +64,22 @@ function getselection(){
 		}
 	})
 };
+function findselection(){
+	$.getJSON("http://miky1216.github.io/entries.json", function(data){
+		var searchBar = $("#search2").val();
+		var indexArray = 0
+		var entriesString = JSON.stringify(data);
+		var entriesArray = entriesString.split("},");
+		var resultEntriesArray = entriesArray.indexOf("projects");
+		//console.log(resultEntriesArray);
+		//console.log(entriesString);
+		//console.log(entriesArray);
+		$("#search2").keyup(function(){
+		$(entriesArray).find(searchBar);
+			for (indexArray = 0; indexArray < entriesArray.length; indexArray++){
+			console.log(entriesArray[indexArray]);
+	});
+})};
+// find the word, return the entire post the word was found in
+// find word, return number in array it was found in
+// loop findselection()
